@@ -1,3 +1,7 @@
+MNEL Project Unleashed Original Version Logo:
+<img width="1012" height="377" alt="MNEL Project Unleashed Original Version Logo" src="https://github.com/user-attachments/assets/99346b09-9bf2-45e5-a3e7-a1c206a75031" />
+MNEL Project Unleashed Lite Version Logo:
+<img width="1014" height="379" alt="MNEL Project Unleasehd Lite Logo" src="https://github.com/user-attachments/assets/1b686b3d-d0a0-4115-96d3-d8950279bd3d" />
 🎮 MNEL Project Unleashed
 🇬🇧 English
 Welcome to MNEL Project Unleashed – an unofficial, fan-made port of Sonic Unleashed (Xbox 360) for Jailbroken PlayStation 4.
