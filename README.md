@@ -3,6 +3,8 @@
 **MNEL Project Unleashed Original Version Logo:**
 <img width="1012" height="377" alt="MNEL Project Unleashed Original Version Logo" src="https://github.com/user-attachments/assets/085fe498-2bce-4c70-8e77-1cbf34831fca" />
 
+**MNEL Project Unleashed Lite Version Logo:**
+<img width="1014" height="379" alt="MNEL Project Unleasehd Lite Logo" src="https://github.com/user-attachments/assets/a289588a-6739-4ffb-b9c5-777f1513d81b" />
 
 ---
 
@@ -24,9 +26,9 @@ This port is based on the original Unleashed Recompiled project by hedge-dev on 
 
 #### 🚧 Technical Challenges & Current Status
 
-Unfortunately, due to the **incomplete nature of the OpenOrbis PS4 SDK**, the project may be **delayed for several weeks or an indefinite period**. Instead of focusing on building the final PKG, I am currently **researching solutions to resolve the compilation errors** that have blocked further progress.
+Unfortunately, due to the **incomplete nature of the OpenOrbis PS4 SDK**, the project may **be delayed for several weeks or an indefinite period**. Instead of focusing on building the final PKG, I am currently **researching solutions to resolve the compilation errors** that have blocked further progress.
 
-At this moment, **there is no complete or professional SDK available** for porting this game to PS4. However, **if such an SDK exists, please share the website link or download link** so I can download and use it!
+At this moment, **there is no complete or professional SDK available** for porting this game to PS4. However, **if such an SDK exists, please share the website link or download link** — or send it via email to **mani.sonia.rose.blue@gmail.com** — so I can download and use it!
 
 Since I haven't been able to find a suitable SDK, I am currently **exploring alternative solutions** such as using **Docker Desktop, Docker images, and WSL** to find a working build environment. 
 
@@ -78,9 +80,9 @@ If you prefer to read this page in Persian, Japanese, Spanish, or Italian, pleas
 
 #### 🚧 چالش‌های فنی و وضعیت فعلی
 
-متأسفانه به دلیل **کامل نبودن OpenOrbis PS4 SDK**، احتمالاً پروژه **یک چند هفته یا مدت نامشخصی به تعویق افتاده است**. به جای اینکه به ساخت نهایی PKG فکر کنم، در حال حاضر **به دنبال راه‌حل‌هایی برای رفع خطاهای کامپایل** هستم که پیشرفت را متوقف کرده‌اند.
+متأسفانه به دلیل **کامل نبودن OpenOrbis PS4 SDK**، احتمالاً پروژه **یک چند هفته یا مدت نامشخصی به تعویق بیوفتد**. به جای اینکه به ساخت نهایی PKG فکر کنم، در حال حاضر **به دنبال راه‌حل‌هایی برای رفع خطاهای کامپایل** هستم که پیشرفت را متوقف کرده‌اند.
 
-در حال حاضر، **هیچ SDK کامل و حرفه‌ای برای پورت کردن این بازی به PS4 وجود ندارد**. اما **اگر وجود داشته باشد، لطفاً لینک سایت یا لینک دانلود را به اشتراک بگذارید** تا بتوانم دانلود و استفاده کنم!
+در حال حاضر، **هیچ SDK کامل و حرفه‌ای برای پورت کردن این بازی به PS4 وجود ندارد**. اما **اگر وجود داشته باشد، لطفاً لینک سایت یا لینک دانلود را به اشتراک بگذارید** — یا آن را به جی‌میل **mani.sonia.rose.blue@gmail.com** ارسال کنید — تا بتوانم دانلود و استفاده کنم!
 
 از آنجایی که نتوانستم SDK مناسب پیدا کنم، در حال حاضر **در حال بررسی راه‌حل‌های جایگزین** مثل استفاده از **Docker Desktop، ایمیج‌های Docker و WSL** هستم تا یک محیط ساخت کارآمد پیدا کنم.
 
@@ -134,7 +136,7 @@ MNEL Project Unleashed へようこそ – Xbox 360版『Sonic Unleashed』 を 
 
 残念ながら、**OpenOrbis PS4 SDK が不完全である**ため、プロジェクトは**数週間または無期限に延期される可能性があります**。最終的なPKGのビルドに焦点を当てる代わりに、現在は**コンパイルエラーを解決するための方法を調査**しています。
 
-現時点では、**このゲームをPS4に移植するための完全でプロフェッショナルなSDKは存在しません**。しかし、**もしそのようなSDKが存在する場合は、ウェブサイトのリンクまたはダウンロードリンクを共有してください**。ダウンロードして使用できるようにします！
+現時点では、**このゲームをPS4に移植するための完全でプロフェッショナルなSDKは存在しません**。しかし、**もしそのようなSDKが存在する場合は、ウェブサイトのリンクまたはダウンロードリンクを共有してください** — または **mani.sonia.rose.blue@gmail.com** までメールで送信してください — ダウンロードして使用できるようにします！
 
 適切なSDKが見つからなかったため、現在は**Docker Desktop、Dockerイメージ、WSLなどの代替ソリューション**を検討して、動作するビルド環境を見つけようとしています。
 
@@ -186,7 +188,7 @@ Este puerto está basado en el proyecto original Unleashed Recompiled de hedge-d
 
 Lamentablemente, debido a la **naturaleza incompleta del SDK de OpenOrbis para PS4**, el proyecto puede **retrasarse durante varias semanas o un período indefinido**. En lugar de centrarme en construir el PKG final, actualmente estoy **investigando soluciones para resolver los errores de compilación** que han bloqueado el progreso.
 
-En este momento, **no existe un SDK completo o profesional** para portar este juego a PS4. Sin embargo, **si dicho SDK existe, por favor comparte el enlace del sitio web o el enlace de descarga** para que pueda descargarlo y usarlo.
+En este momento, **no existe un SDK completo o profesional** para portar este juego a PS4. Sin embargo, **si dicho SDK existe, por favor comparte el enlace del sitio web o el enlace de descarga** — o envíalo por correo electrónico a **mani.sonia.rose.blue@gmail.com** — para que pueda descargarlo y usarlo.
 
 Como no he podido encontrar un SDK adecuado, actualmente estoy **explorando soluciones alternativas** como usar **Docker Desktop, imágenes de Docker y WSL** para encontrar un entorno de compilación funcional.
 
@@ -240,7 +242,7 @@ Questo porting è basato sul progetto originale Unleashed Recompiled di hedge-de
 
 Sfortunatamente, a causa della **natura incompleta dell'SDK OpenOrbis per PS4**, il progetto potrebbe **subire ritardi per diverse settimane o per un periodo indefinito**. Invece di concentrarmi sulla creazione del PKG finale, al momento sto **cercando soluzioni per risolvere gli errori di compilazione** che hanno bloccato i progressi.
 
-Al momento, **non esiste un SDK completo o professionale** per il porting di questo gioco su PS4. Tuttavia, **se tale SDK esiste, ti preghiamo di condividere il link del sito web o il link per il download** in modo che io possa scaricarlo e utilizzarlo!
+Al momento, **non esiste un SDK completo o professionale** per il porting di questo gioco su PS4. Tuttavia, **se tale SDK esiste, ti preghiamo di condividere il link del sito web o il link per il download** — oppure invialo via email a **mani.sonia.rose.blue@gmail.com** — in modo che io possa scaricarlo e utilizzarlo!
 
 Poiché non sono riuscito a trovare un SDK adatto, al momento sto **esplorando soluzioni alternative** come l'utilizzo di **Docker Desktop, immagini Docker e WSL** per trovare un ambiente di compilazione funzionante.
 
