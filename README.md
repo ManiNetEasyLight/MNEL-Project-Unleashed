@@ -3,9 +3,6 @@
 **MNEL Project Unleashed Original Version Logo:**
 <img width="1012" height="377" alt="MNEL Project Unleashed Original Version Logo" src="https://github.com/user-attachments/assets/085fe498-2bce-4c70-8e77-1cbf34831fca" />
 
-**MNEL Project Unleashed Lite Version Logo:**
-<img width="1014" height="379" alt="MNEL Project Unleasehd Lite Logo" src="https://github.com/user-attachments/assets/a289588a-6739-4ffb-b9c5-777f1513d81b" />
-
 ---
 
 ## 🎮 MNEL Project Unleashed
