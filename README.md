@@ -24,13 +24,13 @@ This port is based on the original Unleashed Recompiled project by hedge-dev on 
 
 #### 🚧 Technical Challenges & Current Status
 
-Unfortunately, due to the **incomplete nature of the OpenOrbis PS4 SDK**, the project may **be delayed for several weeks or an indefinite period**. Instead of focusing on building the final PKG, I am currently **researching solutions to resolve the compilation errors** that have blocked further progress.
+⚠️ **We have recently discovered that the PS4 does not recognize DDS image files.** As a result, we have temporarily **commented out** the DDS image includes in the source code to allow compilation to proceed.
 
-At this moment, **there is no complete or professional SDK available** for porting this game to PS4. However, **if such an SDK exists, please share the website link or download link** — or send it via email to **mani.sonia.rose.blue@gmail.com** — so I can download and use it!
+However, if we continue this way, the final installer may **launch without any images at all** — including the **button icons** required for navigation, and even the **game settings menus** that were full of DDS images. This means the installer could be completely **visually blank** in those sections.
 
-Since I haven't been able to find a suitable SDK, I am currently **exploring alternative solutions** such as using **Docker Desktop, Docker images, and WSL** to find a working build environment. 
+📌 **Important Note:** Once the PKG file is built and uploaded to GitHub, the **full installation instructions will be provided** — even without the button icons being visible — so you can still install and play the game. But to **generate the required GNF files** for PS4, we unfortunately need **professional tools** and I **cannot do this alone**.
 
-Under any circumstances, **please be patient**, as the project has temporarily hit a bottleneck and I need to find a new path forward.
+🤝 **If you are willing to help**, please contact me via **GitHub Issues**, **email**, or any other method you prefer. I will then upload the required files that need to be converted, so you can assist in the conversion process.
 
 Thank you,
 Mani Mokhtarzadeh (ManiNetEasyLight)
@@ -78,13 +78,13 @@ If you prefer to read this page in Persian, Japanese, Spanish, or Italian, pleas
 
 #### 🚧 چالش‌های فنی و وضعیت فعلی
 
-متأسفانه به دلیل **کامل نبودن OpenOrbis PS4 SDK**، احتمالاً پروژه **یک چند هفته یا مدت نامشخصی به تعویق بیوفتد**. به جای اینکه به ساخت نهایی PKG فکر کنم، در حال حاضر **به دنبال راه‌حل‌هایی برای رفع خطاهای کامپایل** هستم که پیشرفت را متوقف کرده‌اند.
+⚠️ **ما به تازگی فهمیدیم که PS4 فایل‌های تصویری DDS را شناسایی نمی‌کند.** به همین دلیل، ما موقتاً دستورات مربوط به تصاویر DDS را در سورس کد **کامنت کرده‌ایم** تا کامپایل بتواند جلو برود.
 
-در حال حاضر، **هیچ SDK کامل و حرفه‌ای برای پورت کردن این بازی به PS4 وجود ندارد**. اما **اگر وجود داشته باشد، لطفاً لینک سایت یا لینک دانلود را به اشتراک بگذارید** — یا آن را به جی‌میل **mani.sonia.rose.blue@gmail.com** ارسال کنید — تا بتوانم دانلود و استفاده کنم!
+اما اگر این روند ادامه پیدا کند، نصاب نهایی ممکن است **بدون هیچ تصویری باز شود** — از جمله **آیکون دکمه‌های کنترلر** که برای ناوبری لازم است، و حتی **منوی تنظیمات بازی** که پر از تصاویر DDS بود. این یعنی نصاب ممکن است در آن بخش‌ها **کاملاً بدون تصویر** باشد.
 
-از آنجایی که نتوانستم SDK مناسب پیدا کنم، در حال حاضر **در حال بررسی راه‌حل‌های جایگزین** مثل استفاده از **Docker Desktop، ایمیج‌های Docker و WSL** هستم تا یک محیط ساخت کارآمد پیدا کنم.
+📌 **نکته مهم:** زمانی که فایل PKG ساخته و در گیت‌هاب آپلود شد، **توضیحات کامل نصب بازی ارائه خواهد شد** — حتی بدون نمایش آیکون دکمه‌ها — تا بتوانید بازی را نصب و اجرا کنید. اما برای **ساخت فایل‌های GNF** مورد نیاز PS4، متأسفانه نیازمند **ابزارهای حرفه‌ای** هستیم و من **به تنهایی نمی‌توانم این کار را جلو ببرم**.
 
-تحت هر شرایطی، **لطفاً صبور باشید**، چون پروژه موقتاً به یک بن‌بست خورده و باید یک راه جدید پیدا کنم.
+🤝 **اگر مایل به همکاری هستید**، لطفاً از طریق **Issues گیت‌هاب**، **ایمیل**، یا هر روش دیگری که خودتان می‌دانید به من خبر دهید. سپس فایل‌های الزامی که نیاز به تبدیل دارند را در بخش فایل‌ها قرار می‌دهم تا شما در فرآیند تبدیل کمک کنید.
 
 با تشکر،
 مانی مختارزاده (ManiNetEasyLight)
@@ -132,13 +132,13 @@ MNEL Project Unleashed へようこそ – Xbox 360版『Sonic Unleashed』 を 
 
 #### 🚧 技術的な課題と現状
 
-残念ながら、**OpenOrbis PS4 SDK が不完全である**ため、プロジェクトは**数週間または無期限に延期される可能性があります**。最終的なPKGのビルドに焦点を当てる代わりに、現在は**コンパイルエラーを解決するための方法を調査**しています。
+⚠️ **PS4がDDS画像ファイルを認識しないことが最近判明しました。** そのため、コンパイルを進めるために、ソースコード内のDDS画像のインクルードを一時的に**コメントアウト**しています。
 
-現時点では、**このゲームをPS4に移植するための完全でプロフェッショナルなSDKは存在しません**。しかし、**もしそのようなSDKが存在する場合は、ウェブサイトのリンクまたはダウンロードリンクを共有してください** — または **mani.sonia.rose.blue@gmail.com** までメールで送信してください — ダウンロードして使用できるようにします！
+しかし、このまま進めると、最終的なインストーラーは**画像が全く表示されない状態で起動する可能性があります** — ナビゲーションに必要な**ボタンアイコン**や、DDS画像でいっぱいだった**ゲーム設定メニュー**も含めてです。つまり、インストーラーはそれらのセクションで**完全に視覚的に空白**になる可能性があります。
 
-適切なSDKが見つからなかったため、現在は**Docker Desktop、Dockerイメージ、WSLなどの代替ソリューション**を検討して、動作するビルド環境を見つけようとしています。
+📌 **重要なお知らせ:** PKGファイルがビルドされGitHubにアップロードされたら、**完全なインストール手順が提供されます** — ボタンアイコンが表示されなくても — ゲームをインストールしてプレイできます。しかし、PS4に必要な**GNFファイルを生成する**には、残念ながら**専門的なツール**が必要であり、私**一人ではこれを進められません**。
 
-いかなる状況でも、**しばらくお待ちください**。プロジェクトは一時的に行き詰まっており、新しい道を見つける必要があります。
+🤝 **協力していただける場合**は、**GitHub Issues**、**メール**、またはその他の方法でご連絡ください。変換が必要なファイルをアップロードしますので、変換作業をお手伝いください。
 
 マニ・モフタルザーデ (ManiNetEasyLight)
 
@@ -184,13 +184,13 @@ Este puerto está basado en el proyecto original Unleashed Recompiled de hedge-d
 
 #### 🚧 Desafíos técnicos y estado actual
 
-Lamentablemente, debido a la **naturaleza incompleta del SDK de OpenOrbis para PS4**, el proyecto puede **retrasarse durante varias semanas o un período indefinido**. En lugar de centrarme en construir el PKG final, actualmente estoy **investigando soluciones para resolver los errores de compilación** que han bloqueado el progreso.
+⚠️ **Recientemente descubrimos que la PS4 no reconoce los archivos de imagen DDS.** Como resultado, hemos **comentado temporalmente** las inclusiones de imágenes DDS en el código fuente para permitir que la compilación continúe.
 
-En este momento, **no existe un SDK completo o profesional** para portar este juego a PS4. Sin embargo, **si dicho SDK existe, por favor comparte el enlace del sitio web o el enlace de descarga** — o envíalo por correo electrónico a **mani.sonia.rose.blue@gmail.com** — para que pueda descargarlo y usarlo.
+Sin embargo, si continuamos así, el instalador final podría **iniciarse sin ninguna imagen** — incluyendo los **iconos de los botones** necesarios para la navegación, e incluso los **menús de configuración del juego** que estaban llenos de imágenes DDS. Esto significa que el instalador podría quedar **completamente en blanco** en esas secciones.
 
-Como no he podido encontrar un SDK adecuado, actualmente estoy **explorando soluciones alternativas** como usar **Docker Desktop, imágenes de Docker y WSL** para encontrar un entorno de compilación funcional.
+📌 **Nota importante:** Una vez que el archivo PKG sea construido y subido a GitHub, se proporcionarán las **instrucciones completas de instalación** — incluso sin que los iconos de los botones sean visibles — para que puedas instalar y jugar. Pero para **generar los archivos GNF** requeridos por la PS4, lamentablemente necesitamos **herramientas profesionales** y **no puedo hacerlo solo**.
 
-Bajo cualquier circunstancia, **por favor tengan paciencia**, ya que el proyecto ha llegado temporalmente a un cuello de botella y necesito encontrar un nuevo camino.
+🤝 **Si estás dispuesto a ayudar**, por favor contáctame a través de **GitHub Issues**, **correo electrónico**, o cualquier otro método que prefieras. Subiré los archivos requeridos que necesitan conversión para que puedas ayudar en el proceso.
 
 Gracias,
 Mani Mokhtarzadeh (ManiNetEasyLight)
@@ -238,13 +238,13 @@ Questo porting è basato sul progetto originale Unleashed Recompiled di hedge-de
 
 #### 🚧 Sfide tecniche e stato attuale
 
-Sfortunatamente, a causa della **natura incompleta dell'SDK OpenOrbis per PS4**, il progetto potrebbe **subire ritardi per diverse settimane o per un periodo indefinito**. Invece di concentrarmi sulla creazione del PKG finale, al momento sto **cercando soluzioni per risolvere gli errori di compilazione** che hanno bloccato i progressi.
+⚠️ **Abbiamo recentemente scoperto che la PS4 non riconosce i file immagine DDS.** Di conseguenza, abbiamo temporaneamente **commentato** le inclusioni delle immagini DDS nel codice sorgente per consentire alla compilazione di procedere.
 
-Al momento, **non esiste un SDK completo o professionale** per il porting di questo gioco su PS4. Tuttavia, **se tale SDK esiste, ti preghiamo di condividere il link del sito web o il link per il download** — oppure invialo via email a **mani.sonia.rose.blue@gmail.com** — in modo che io possa scaricarlo e utilizzarlo!
+Tuttavia, se continuiamo così, l'installer finale potrebbe **avviarsi senza alcuna immagine** — inclusi gli **icone dei pulsanti** necessari per la navigazione, e persino i **menu delle impostazioni di gioco** che erano pieni di immagini DDS. Ciò significa che l'installer potrebbe risultare **completamente vuoto** in quelle sezioni.
 
-Poiché non sono riuscito a trovare un SDK adatto, al momento sto **esplorando soluzioni alternative** come l'utilizzo di **Docker Desktop, immagini Docker e WSL** per trovare un ambiente di compilazione funzionante.
+📌 **Nota importante:** Una volta che il file PKG sarà costruito e caricato su GitHub, verranno fornite le **istruzioni complete per l'installazione** — anche senza che le icone dei pulsanti siano visibili — in modo che tu possa installare e giocare. Ma per **generare i file GNF** richiesti dalla PS4, purtroppo abbiamo bisogno di **strumenti professionali** e **non posso farlo da solo**.
 
-In qualsiasi circostanza, **ti preghiamo di essere paziente**, poiché il progetto ha temporaneamente raggiunto un collo di bottiglia e devo trovare una nuova strada.
+🤝 **Se sei disposto ad aiutare**, ti prego di contattarmi tramite **GitHub Issues**, **email**, o qualsiasi altro metodo tu preferisca. Caricherò i file richiesti che necessitano di conversione in modo che tu possa aiutare nel processo.
 
 Grazie,
 Mani Mokhtarzadeh (ManiNetEasyLight)
